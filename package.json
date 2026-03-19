@@ -1,0 +1,17 @@
+{
+  "name": "hangman",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@types/keypress": "^2.0.30",
+    "chalk": "^5.4.1",
+    "keypress": "^0.2.1"
+  }
+}
